@@ -9,7 +9,7 @@ import { ActivatedRoute } from '@angular/router';
 export class AboutComponent implements OnInit {
 	public username: string="Hello";
 	public id: string;
-	//public LOGO = require("./assets/cool.jpg");
+	
 	constructor(private route: ActivatedRoute) {
 
 		this.route.params.subscribe(params => {
