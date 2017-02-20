@@ -12,7 +12,7 @@ constructor(private router :Router)
 
 }
 
-	onNavigate() {
+	onNavigates() {
 		this.router.navigate(['/']);
 	}
 }
